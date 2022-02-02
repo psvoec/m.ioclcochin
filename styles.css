@@ -1,0 +1,54 @@
+body{
+  font-family: Helvetica;
+}
+table {
+    padding: 0px;
+    border-collapse: collapse;
+}
+td {
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    border-width: 0px;
+    font-size: 10px;
+    position: relative;
+  }
+  input {
+    width: 40px;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    border-width: 0.3px;
+    border-style: solid;
+    border-color: black;
+    float: right;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    padding: 0px;
+  }
+  input:disabled {
+    background: #525050;
+    color: white;
+  }
+ input[type="text"]::placeholder {
+     font-size: 10px;
+     position: relative;
+     top: 0px;
+     color: gray;
+     padding: 0px;
+     margin-top: 0px;
+     margin-left: 0px;
+ }
+p {
+  padding: 0px;
+  margin: 7px;
+  font-size: 16px;
+}
+h3 {
+  padding: 2px;
+  margin: 30px 0px 0px 0px;
+  font-size: 20px;
+}
